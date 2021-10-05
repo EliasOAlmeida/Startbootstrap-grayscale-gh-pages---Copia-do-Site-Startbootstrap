@@ -94,6 +94,43 @@ html, body, .section {
     vertical-align: middle;
 }
 
+.container-conteudo {
+   width: 84.5%;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+
+.container-conteudo > div {
+  margin-top: 121px;
+}
+
+.img-mountain {
+  padding-right: 68px;
+}
+
+.img-mountain img{
+  box-shadow: 148px -1px 0px -140px #21252973;
+}
+
+.conteudo-project {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 131px;
+  margin-left: -40px;
+  text-align: center;
+}
+
+.conteudo-project h3{
+  color: #212529;
+  font-size: 24.3px;
+  letter-spacing: 0.9px;
+  margin: 0px;
+  line-height: 44px;
+}
+
+.conteudo-project p{
+  color: rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 1px;
+}
 
 .box-home-title {
   font-family: 'Varela Round', sans-serif;
