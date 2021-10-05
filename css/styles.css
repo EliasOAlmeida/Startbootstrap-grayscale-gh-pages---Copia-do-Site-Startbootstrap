@@ -1,0 +1,101 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+header  nav {
+  margin: 15px 0px 0px 0px;
+  font-family: 'Nunito', sans-serif;
+}
+
+header  nav a {
+  color: #ffffff80!important;
+}
+
+header  nav li a:hover {
+  color: #ffffff!important;
+}
+
+.navbar-bg {
+  background: rgba(255, 250, 250, 0);
+}
+
+header ul li {
+  padding: 0px 0px 0px 32px;
+  margin-top: 1px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #ffffffce!important;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+html, body, .home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  background: url(../css/assets/img/certo.jpg) no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  background-size: 100% 100%;
+}
+
+.box-home-title {
+  font-family: 'Varela Round', sans-serif;
+
+  background-image: linear-gradient(to bottom, rgb(225, 251, 255), rgba(0, 0, 0, 0.158));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-weight: 500;
+  margin-top: 171px;
+  margin-bottom: 0px;
+  font-size: 6.5rem;
+  letter-spacing: 13px;
+}
+
+.box-home-text {
+  width: 36%;
+  padding: 0px 3px;
+  margin-top: -2px;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff80!important;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-size: 18.5px;
+  font-weight: normal;
+}
+
+.btn-home a{
+  font-family: 'Varela Round', sans-serif;
+  background: #64a19d;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin-top: 31px;
+  padding: 20px 32px;
+}
+
+.btn-home a:hover{
+  background: #76beba;
+}
